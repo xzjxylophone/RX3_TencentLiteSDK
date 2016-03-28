@@ -2,7 +2,7 @@
 
 Pod::Spec.new do |s|
   s.name     = "RX3_TencentLiteSDK"
-  s.version  = "2.9.5.1"
+  s.version  = "2.9.5.2"
   s.license  = "MIT"
   s.summary  = "RX3_TencentLiteSDK is a tecent lite sdk"
   s.homepage = "https://github.com/xzjxylophone/RX3_TencentLiteSDK"
