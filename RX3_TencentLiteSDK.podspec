@@ -12,12 +12,15 @@ Pod::Spec.new do |s|
   s.description = %{
         RX3_TencentLiteSDK is a tecent lite sdk.
   }
-  s.source_files = 'RX3_TencentLiteSDK/*.*'
+  s.vendored_frameworks = 'RX3_TencentLiteSDK/TencentOpenAPI.framework'
+  s.source_files = 'RX3_TencentLiteSDK/TencentOpenAPI.framework/Headers/*.h'
   s.frameworks = 'SystemConfiguration', 'Security', 'CoreGraphics', 'CoreTelephony'
   s.requires_arc = true
   s.libraries = 'z', 'sqlite3', 'stdc++', 'iconv'
   s.platform = :ios, '7.0'
 end
+
+
 
 
 
