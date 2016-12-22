@@ -2,7 +2,7 @@
 
 Pod::Spec.new do |s|
   s.name     = "RX3_TencentLiteSDK"
-  s.version  = "2.9.5.2"
+  s.version  = "3.1.3.1"
   s.license  = "MIT"
   s.summary  = "RX3_TencentLiteSDK is a tecent lite sdk"
   s.homepage = "https://github.com/xzjxylophone/RX3_TencentLiteSDK"
@@ -13,6 +13,7 @@ Pod::Spec.new do |s|
         RX3_TencentLiteSDK is a tecent lite sdk.
   }
   s.vendored_frameworks = 'RX3_TencentLiteSDK/TencentOpenAPI.framework'
+  s.source = 'RX3_TencentLiteSDK/TencentOpenApi_IOS_Bundle.bundle'
   s.source_files = 'RX3_TencentLiteSDK/TencentOpenAPI.framework/Headers/*.h'
   s.frameworks = 'SystemConfiguration', 'Security', 'CoreGraphics', 'CoreTelephony'
   s.requires_arc = true
