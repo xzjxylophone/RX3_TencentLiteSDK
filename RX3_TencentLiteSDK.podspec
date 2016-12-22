@@ -13,7 +13,9 @@ Pod::Spec.new do |s|
         RX3_TencentLiteSDK is a tecent lite sdk.
   }
   s.vendored_frameworks = 'RX3_TencentLiteSDK/TencentOpenAPI.framework'
-  s.source = 'RX3_TencentLiteSDK/TencentOpenApi_IOS_Bundle.bundle'
+  s.resource_bundle = {
+    'Paramount' => ['RX3_TencentLiteSDK/TencentOpenApi_IOS_Bundle.bundle/*.*']
+}
   s.source_files = 'RX3_TencentLiteSDK/TencentOpenAPI.framework/Headers/*.h'
   s.frameworks = 'SystemConfiguration', 'Security', 'CoreGraphics', 'CoreTelephony'
   s.requires_arc = true
